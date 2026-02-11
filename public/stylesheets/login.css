@@ -1,0 +1,15 @@
+body {
+    background-color: #f2f4f7; /* Soft gray */
+    /* No background-image here, keeping it clean */
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Nice shadow to pop off the gray bg */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Ensures the image doesn't stretch */
+}

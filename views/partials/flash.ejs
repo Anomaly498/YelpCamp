@@ -1,0 +1,18 @@
+
+<% if(success && success.length){ %>
+<div class="alert alert-success alert-dismissible fade show" role="alert"><!--Use of 'role' attribute :  It just is going to announce it. If someone's using a screen reader, they otherwise wouldn't know that there was an alert.-->
+    <%= success %>
+    <button type="button" class="close" data-dismiss="alert" aria label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>
+</div> 
+<% } %>
+
+<% if(error && error.length){ %>
+<div class="alert alert-danger alert-dismissible fade show" role="alert"><!--Use of 'role' attribute :  It just is going to announce it. If someone's using a screen reader, they otherwise wouldn't know that there was an alert.-->
+    <%= error %>
+    <button type="button" class="close" data-dismiss="alert" aria label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>
+</div> 
+<% } %>
