@@ -79,19 +79,22 @@ const scriptSrcUrls = [
     "https://stackpath.bootstrapcdn.com/",
     "https://kit.fontawesome.com/",
     "https://cdnjs.cloudflare.com/",
-    "https://cdn.jsdelivr.net",
-    "https://cdn.maptiler.com/", // MapTiler
-    "https://cdn.jsdelivr.net/", // <--- ADD THIS COMMA AND LINE
+    "https://cdn.jsdelivr.net/", 
+    "https://cdn.maptiler.com/", 
 ];
+
 const styleSrcUrls = [
     "https://kit-free.fontawesome.com/",
     "https://stackpath.bootstrapcdn.com/",
     "https://fonts.googleapis.com/",
     "https://use.fontawesome.com/",
-    "https://cdn.maptiler.com/", // MapTiler
+    "https://cdn.maptiler.com/", 
+    "https://cdn.jsdelivr.net/", 
 ];
+
 const connectSrcUrls = [
-    "https://api.maptiler.com/", // MapTiler
+    "https://api.maptiler.com/", 
+    "https://cdn.jsdelivr.net/", // <--- ADDED THIS to fix the map error
 ];
 
 const fontSrcUrls = [
